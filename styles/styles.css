@@ -247,6 +247,8 @@ footer {
 	color: white;
 }
 
+/* ====== MEDIA QUERIES ========= */
+
 @media screen and (max-width: 768px) {
 	.menu-btn {
 		position: relative;
@@ -294,7 +296,7 @@ footer {
 		align-items: center;
 	}
 	.intro-main {
-		font-size: 20px;
+		font-size: 21px;
 	}
 	.intro-second {
 		font-size: 14px;
@@ -315,6 +317,9 @@ footer {
 		margin-left: 30px;
 		font-size: 12px;
 		font-weight: 500;
+	}
+	.proceed {
+		padding: 0.6rem 1.6rem;
 	}
 }
 @media screen and (max-width: 480px) {
